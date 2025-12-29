@@ -279,10 +279,21 @@ const Vehicle = [
         </div>
       </div> */}
 <div id="Home" className="container-fluid bg-primary py-5 mb-5 hero-header">
-  <video autoPlay loop muted playsInline>
-    <source src={video} type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+<video
+  autoPlay
+  loop
+  muted
+  playsInline
+  preload="auto"
+  className="w-full h-full object-cover"
+>
+  <source
+    src="https://res.cloudinary.com/dde0mxfs0/video/upload/bg-video1_apcs9n.mp4"
+    type="video/mp4"
+  />
+</video>
+
+
 
   <div className="container py-5">
     <div className="row justify-content-center py-5">
