@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import video from '../assets/video/bg-video1.mp4'
 import { Link as ScrollLink } from "react-scroll";
 import { useNavigate } from "react-router-dom";
 
